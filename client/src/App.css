@@ -1,20 +1,29 @@
 body {
-  font-family: Arial;
+  font-family: Arial, sans-serif;
   text-align: center;
 }
 
 .chat-box {
-  width: 300px;
-  margin: auto;
+  width: min(500px, 92vw);
+  margin: 30px auto;
 }
 
 .messages {
   border: 1px solid #ccc;
-  height: 200px;
+  border-radius: 8px;
+  height: 240px;
   overflow-y: auto;
-  margin-bottom: 10px;
+  margin: 10px 0;
+  padding: 0 12px;
+  text-align: left;
+}
+
+input {
+  width: 70%;
+  padding: 8px;
 }
 
 button {
   margin: 5px;
+  padding: 8px 12px;
 }
